@@ -22,7 +22,6 @@ public class Professor {
         }
         return null;
     }
-
     public void displayProfessorInfo() {
         System.out.println("Professor ID: " + id + ", Personal ID: " + personID + ", Major ID: " + majorID);
     }
