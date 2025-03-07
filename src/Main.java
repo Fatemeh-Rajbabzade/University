@@ -4,8 +4,8 @@ import uni.*;
 public class Main {
     public static void main(String[] args) {
         // رشته ها
-        Major cs = new Major(1, "Computer Science", 3);
-        Major ee = new Major(2, "Electrical Engineering", 2);
+        Major math = new Major(1, "Mathematics", 3);
+        Major cs = new Major(2, "Computer Science", 1);
 
         //افراد
         Person person1 = new Person(1, "Fateme", "40212015");
@@ -35,7 +35,7 @@ public class Main {
         //دروس
         Course course1 = new Course(1, "Topology", 3);
         Course course2 = new Course(2, "Matrix", 3);
-        Course course3 = new Course(3, "Advanced PPrograming", 4);
+        Course course3 = new Course(3, "Advanced Programing", 4);
 
         // دروسی که ارائه می شوند
         PresentedCourse presentedCourse1 = new PresentedCourse(1, 1, 1, 5);
